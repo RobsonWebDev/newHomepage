@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <title>Homepage</title>
 </head>
 <body>
     <header>
-        <nav>
-            <figure id="logo">
-                <img src="image/logo.png" alt="logo">
-            </figure>
-            <menu id="menu">
+        <figure id="logo">
+            <img src="image/logo.png" alt="logo">
+        </figure>
+        <nav>            
+            <span id="menu" class="material-icons" onclick="clickMenu()">menu</span>
+            <menu id="itens">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Novo</a></li>
-                    <li><a href="">Popular</a></li>
-                    <li><a href="">Tendência</a></li>
-                    <li><a href="">Categorias</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Novo</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Tendência</a></li>
+                    <li><a href="#">Categorias</a></li>
                 </ul>
             </menu>
         </nav>
@@ -38,15 +40,15 @@
         </section>
         <section id="section-main-second">
             <h2>Novo</h2>
-            <div>
+            <div class="div-section">
                 <h3>Hidrogênio vs Carros Elétricos</h3>
                 <p>Os carros movidos a Hidrogênio alcançarão os EVs?</p>
             </div>
-            <div>
+            <div class="div-section">
                 <h3>As desvantagens de Toda a Arte</h3>
                 <p>Quais são os possíveis efeitos adversos da geração de imagens sob demanda?</p>
             </div>
-            <div>
+            <div class="div-section">
                 <h3>Esta Financiando VC</h3>
                 <p>O Finnciamento privado por empresas de VCs caiu 50% ano a ano. Vamos dar uma olhada no que isso significa</p>
             </div>
@@ -78,5 +80,21 @@
             </div>
         </section>
     </footer>
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'flex'
+            }
+        }
+        
+        function clickMenu()  {
+            if (itens.style.display == 'flex') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'flex'
+            }
+        }
+
+    </script>
 </body>
 </html>

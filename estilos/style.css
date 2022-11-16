@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    padding: 10px;
+}
+
+header {
+    margin: auto;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+figure#logo {
+    width: 100%;
+}
+
+figure#logo img{
+    width: 30px;
+    text-align: left;
+}
+
+nav span#menu {
+    text-align: center;
+}
+
+menu#itens {
+    width: 100%;
+}
+
+menu#itens ul{
+    text-align: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main section figure img {
+    width: 200px;
+}
+
+main section#section-main-first {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+main section#section-main-first section {
+    margin-top: 10px;
+}
+
+main section#section-main-first section h2{
+    font-size: 1.5em;
+    width: 180px;
+}
+main section#section-main-first section div{
+    width: 185px;
+}
+
+main section#section-main-first section div p {
+    font-size: .8em;
+    text-align: left;
+    margin-top: 10px;
+}
+
+main section#section-main-first button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgba(250, 99, 28, 0.89);
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+main section#section-main-second {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 280px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(43, 1, 82);
+    color: white;
+    padding: 15px;
+}
+
+main section#section-main-second h2{
+    color: rgb(255, 217, 0);
+}
+
+
+main section#section-main-second .div-section h3{
+    font-size: .8em;
+    margin-top: 8px;
+    padding-top: 15px;
+
+}
+
+main section#section-main-second .div-section p{
+    font-size: .6em;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px white;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+footer section.section-footer{
+    display: flex;
+    margin: auto;
+}
+
+footer section.section-footer div{
+    width: 130px;
+    padding-left: 10px;
+}
+
+footer section.section-footer div h3{
+    color: grey;
+}
+
+footer section.section-footer div p{
+    font-size: .8em;
+}
+
+footer section.section-footer div article{
+    font-size: .6em;
+    text-align: left;
+}
+
+footer section.section-footer img{
+    width: 60px;
+}
