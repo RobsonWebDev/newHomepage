@@ -13,6 +13,7 @@ body {
 
 header {
     margin: auto;
+    display: flex;
 }
 
 header nav {
@@ -21,6 +22,10 @@ header nav {
     width: 100%;
     margin: auto;
     position: relative;
+}
+
+header figure{
+    text-align: center;
 }
 
 figure#logo {
@@ -37,12 +42,17 @@ nav span#menu {
 }
 
 menu#itens {
-    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
 }
 
-menu#itens ul{
+menu#itens ul li{
     text-align: center;
+    padding: 5px;
+}
 
+a{
+    color: rgba(128, 128, 128, 0.767);
 }
 
 main {
@@ -51,7 +61,7 @@ main {
 }
 
 main section figure img {
-    width: 200px;
+    width: 100%;
 }
 
 main section#section-main-first {
@@ -65,15 +75,16 @@ main section#section-main-first section {
 }
 
 main section#section-main-first section h2{
-    font-size: 1.5em;
-    width: 180px;
+    font-size: 2.5em;
+    width: 200px;
+    color: rgb(41, 2, 112);
 }
 main section#section-main-first section div{
-    width: 185px;
+    width: 100%;
 }
 
 main section#section-main-first section div p {
-    font-size: .8em;
+    font-size: 1.2em;
     text-align: left;
     margin-top: 10px;
 }
@@ -91,7 +102,7 @@ main section#section-main-first button {
 main section#section-main-second {
     display: flex;
     flex-direction: column;
-    width: 180px;
+    width: 250px;
     height: 280px;
     margin: auto;
     margin-top: 20px;
@@ -131,24 +142,31 @@ footer section.section-footer{
     margin: auto;
 }
 
+footer section.section-footer{
+    padding-bottom: 15px;
+}
+
 footer section.section-footer div{
-    width: 130px;
+    width: 268px;
     padding-left: 10px;
 }
 
 footer section.section-footer div h3{
     color: grey;
+    font-size: 1.8em;
 }
 
 footer section.section-footer div p{
-    font-size: .8em;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer section.section-footer div article{
-    font-size: .6em;
+    font-size: 1.2em;
     text-align: left;
 }
 
 footer section.section-footer img{
-    width: 60px;
+    width: 120px;
 }
