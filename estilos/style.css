@@ -8,12 +8,14 @@
 }
 
 body {
-    padding: 10px;
+    padding: 15px;
 }
 
 header {
     margin: auto;
     display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
 }
 
 header nav {
@@ -25,7 +27,7 @@ header nav {
 }
 
 header figure{
-    text-align: center;
+    text-align: left;
 }
 
 figure#logo {
@@ -33,12 +35,14 @@ figure#logo {
 }
 
 figure#logo img{
-    width: 30px;
+    width: 50px;
     text-align: left;
 }
 
 nav span#menu {
     text-align: center;
+    text-align: right;
+    font-size: 2.8em;
 }
 
 menu#itens {
