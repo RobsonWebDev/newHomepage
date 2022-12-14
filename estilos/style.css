@@ -46,6 +46,10 @@ nav span#menu {
     font-weight: bold;
 }
 
+nav menu {
+    display: none;
+}
+
 menu#itens {
     text-align: center;
     font-size: 1.2em;
